@@ -1,5 +1,5 @@
 {
-  "family": "myapp-task",
+  "family": "newapp-task",
   "executionRoleArn": "arn:aws:iam::381491917220:role/nodeapp",
   "networkMode": "awsvpc",
   "containerDefinitions": [
