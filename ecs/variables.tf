@@ -15,12 +15,12 @@ variable "ecs_task_execution_role" {
 }
 
 variable "app_image" {
-  default     = "nginx:latest"
+  default     = "bradfordhamilton/crystal_blockchain:latest"
   description = "docker image to run in this ECS cluster"
 }
 
 variable "app_port" {
-  default     = "80"
+  default     = "3000"
   description = "portexposed on the docker image"
 }
 
